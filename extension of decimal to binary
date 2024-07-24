@@ -1,0 +1,18 @@
+n=int(input())
+binary=bin(n)
+a=[]
+b=[]
+cnt=0
+cnt1=0
+d= len(binary)
+for i in range(2,d):
+    if(binary[i]=='0'):
+        a.append(binary[i])
+        cnt+=1;
+    else:
+        b.append(binary[i])
+        cnt1+=1;
+print(''.join(a))
+print(''.join(b))
+print(cnt)
+print(cnt1)
