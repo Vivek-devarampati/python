@@ -1,0 +1,6 @@
+a=10;
+sal=0;
+while(a==10):
+    sal=sal+100
+    print('sal')
+    break;
