@@ -1,0 +1,10 @@
+a=str(input())
+b=""
+for i in a:
+    if i.islower():
+        b+=i
+    else:
+        print(b.swapcase())
+        b=""
+        b+=i
+print(b.swapcase())
