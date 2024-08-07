@@ -1,0 +1,15 @@
+n=int(input())
+m=int(input())
+c=[]
+while(m>0):
+    d=m%n
+    if d<=9:
+        c.append(d)
+    else:
+        e=chr(d+55)
+        c.append(e)
+    m=m//n
+c=c[::-1]
+c=map(str,c)
+print("".join(c))
+
