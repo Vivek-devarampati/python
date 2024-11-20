@@ -1,0 +1,10 @@
+n=input()
+l=len(n)
+a=0
+for i in n:
+    a+=int(i)**l
+if int(n)==a:
+    print("amstrong")
+else:
+     print("not amstrong")
+    
